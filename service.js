@@ -11,40 +11,40 @@ document.addEventListener("DOMContentLoaded", () => {
   // 🔹 Sample image data (replace with your actual image paths)
   const data = {
     rental: [
-      { src: "../assets/images/rental/rental-luxury-apartment.avif", desc: "Luxury Apartment for Rent" },
-      { src: "../assets/images/rental/rental-city-center.avif", desc: "City Center Condo - Affordable" },
-      { src: "../assets/images/rental/rental-suburban.avif", desc: "Peaceful Suburban Rental" }
+      { src: "rental-luxury-apartment.avif", desc: "Luxury Apartment for Rent" },
+      { src: "rental/rental-city-center.avif", desc: "City Center Condo - Affordable" },
+      { src: "rental-suburban.avif", desc: "Peaceful Suburban Rental" }
     ],
     buySell: [
-      { src: "../assets/images/buy&sell/buy&sell-modern-house.avif", desc: "Modern House for Sale" },
-      { src: "../assets/images/buy&sell/buy&sell-family-house.avif", desc: "Family Home - Great Deal" },
-      { src: "../assets/images/buy&sell/buy&sell-luxury-villa.avif", desc: "Luxury Villa for Sale" }
+      { src: "buy&sell-modern-house.avif", desc: "Modern House for Sale" },
+      { src: "buy&sell-family-house.avif", desc: "Family Home - Great Deal" },
+      { src: "buy&sell-luxury-villa.avif", desc: "Luxury Villa for Sale" }
     ],
     advisory: [
-      { src: "../assets/images/estate-tax-advisory/expert-estate-advisory.avif", desc: "Expert Estate Advisory Services" },
-      { src: "../assets/images/estate-tax-advisory/estate-tax-advisory-investment&market.avif", desc: "Investment & Market Consultation" },
-      { src: "../assets/images/estate-tax-advisory/investment-consult-house.avif", desc: "Consultation & Investment"}
+      { src: "expert-estate-advisory.avif", desc: "Expert Estate Advisory Services" },
+      { src: "estate-tax-advisory-investment&market.avif", desc: "Investment & Market Consultation" },
+      { src: "investment-consult-house.avif", desc: "Consultation & Investment"}
       ],
     valuation: [
-      { src: "../assets/images/property-valuation/prop-valuation-house-props", desc: "Residential Property Valuation" },
-      { src: "../assets/images/property-valuation/", desc: "Commercial Valuation Analysis" },
-      { src: "../assets/images/property-valuation/property-valuation-property-view.avif", desc: "Property Viewing"}
+      { src: "prop-valuation-house-props", desc: "Residential Property Valuation" },
+      { src: "property-valuation-commercial", desc: "Commercial Valuation Analysis" },
+      { src: "property-valuation-property-view.avif", desc: "Property Viewing"}
     ],
     recent: [
-      { src: "../assets/images/recent/recent-1.avif"},
-      { src: "../assets/images/recent/recent-2.avif"},
-      { src: "../assets/images/recent/recent-3.avif"},
-      { src: "../assets/images/recent/recent-4.avif"},
-      {src: "../assets/images/recent/recent-5.avif"},
-      { src: "../assets/images/recent/recent-6.avif"}
+      { src: "recent-1.avif", desc: "Recent"},
+      { src: "recent-2.avif",  desc: "Recent"},
+      { src: "recent-3.avif",  desc: "Recent"},
+      { src: "recent-4.avif", desc: "Recent"},
+      {src: "recent-5.avif",  desc: "Recent"},
+      { src: "recent-6.avif",  desc: "Recent"}
     ],
     newArrival: [
-      { src: "../assets/images/new-arrivals/new-arrivals-1.avif"},
-      { src: "../assets/images/new-arrivals/new-arrivals-2.avif"},
-      { src: "../assets/images/new-arrivals/new-arrivals-3.avif"},
-      { src: "../assets/images/new-arrivals/new-arrivals-4.avif"},
-      { src: "../assets/images/new-arrivals/new-arrivals-5.avif"},
-      { src: "../assets/images/new-arrivals/new-arrivals-6.avif"}
+      { src: "new-arrivals-1.avif", desc: "New Arrivals"},
+      { src: "new-arrivals-2.avif" , desc: "New Arrivals"},
+      { src: "new-arrivals-3.avif", desc: "New Arrivals"},
+      { src: "new-arrivals-4.avif", desc: "New Arrivals"},
+      { src: "new-arrivals-5.avif", desc: "New Arrivals"},
+      { src: "new-arrivals-6.avif", desc: "New Arrivals"}
     ]
   };
 
@@ -194,3 +194,4 @@ function updateCartView() {
     setTimeout(() => note.remove(), 1800);
   }
 });
+
