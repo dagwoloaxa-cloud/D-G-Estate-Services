@@ -64,7 +64,7 @@ body {
 /* Hero Section */
 .hero {
   height: 50vh;
-  background: url('../images/hero/about-us-hero.avif') center/cover no-repeat;
+  background: url('about-us-hero.avif') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -251,4 +251,5 @@ p {
     gap: 20px;
   }
 }
+
 
