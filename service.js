@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const data = {
     rental: [
       { src: "rental-luxury-apartment.avif", desc: "Luxury Apartment for Rent" },
-      { src: "rental/rental-city-center.avif", desc: "City Center Condo - Affordable" },
+      { src: "rental-city-center.avif", desc: "City Center Condo - Affordable" },
       { src: "rental-suburban.avif", desc: "Peaceful Suburban Rental" }
     ],
     buySell: [
@@ -194,5 +194,6 @@ function updateCartView() {
     setTimeout(() => note.remove(), 1800);
   }
 });
+
 
 
