@@ -9,13 +9,28 @@
     body {
       background: #f9fbff;
     }
-    .nav a {
-      align-items: center;
-      color: dark-blue;
+    .nav-bar {
+      display: flex;           
+      justify-content: center; 
+      align-items: center;     
+      padding: 20px;
+      background: #f9fbff;     
+      gap: 20px;               
+      }
+
+    .nav-bar .logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: #0a3d62;
+     }
+
+    .nav-bar .back a {
+       text-decoration: underline;
+       color: blue;
+       font-weight: 600;
     }
-    .nav a:hover{
-      color: light-blue;
-    }
+
+      
     .order-container {
       display: flex;
       flex-wrap: wrap;
@@ -146,7 +161,9 @@
 
   <header class="nav-bar">
     <div class="logo">D&G Estate Services</div>
-    <nav><a href="index.html" class="active">Home</a></nav>
+    <div class="back">
+      <a href="index.html">Home</a>
+    </div>
   </header>
 
   <section class="order-container">
@@ -244,6 +261,7 @@
 
 </body>
 </html>
+
 
 
 
