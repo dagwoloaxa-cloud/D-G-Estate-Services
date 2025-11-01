@@ -157,7 +157,7 @@ function updateCartView() {
     orderBtn.classList.add("order-btn");
     orderBtn.addEventListener("click", () => {
       localStorage.setItem("cartItems", JSON.stringify(cart));
-      window.location.href = "../services/order.html";
+      window.location.href = "order.html";
     });
     cartView.appendChild(orderBtn);
   }
@@ -194,4 +194,5 @@ function updateCartView() {
     setTimeout(() => note.remove(), 1800);
   }
 });
+
 
