@@ -70,7 +70,7 @@ body {
 }
 .hero {
   height: 50vh;
-  background: url('../images/hero/contact-us-hero.avif') center/cover no-repeat;
+  background: url('contact-us-hero.avif') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -233,3 +233,4 @@ body {
     flex-direction: column;
   }
 }
+
