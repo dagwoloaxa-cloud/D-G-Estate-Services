@@ -83,7 +83,7 @@ body {
 ======================= */
 .hero {
   height: 60vh;
-  background: url('../images/hero/services-hero.avif') center/cover no-repeat;
+  background: url('services-hero.avif') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -519,3 +519,4 @@ body {
   color: #555;
   margin-top: 20px;
 }
+
